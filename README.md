@@ -2,17 +2,15 @@
 
 This is my implementation of a todo list API built in the @scoth-io three-part tutorial 'Build a RESTful JSON API with Rails 5'
 
-* [Part One](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one) - [source](https://github.com/akabiru/todos-api/tree/part-one)
-* [Part Two](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-two) - [source](https://github.com/akabiru/todos-api/tree/part-two)
-* [Part Three](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-three) - [source](https://github.com/akabiru/todos-api/tree/part-three)
+* [Part One](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one) / [Part Two](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-two / [Part Three](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-three)
 
 Source repo at [akabiru/todos-api](https://github.com/akabiru/todos-api)
 
-# Prerequisites
+## Prerequisites
 * Ruby 2.2.2+
 * Rails 5+
 
-# API RESTful Endpoints
+### API RESTful Endpoints
 
 | Endpoint | Functionality |
 | --- | --- |
