@@ -1,24 +1,29 @@
-# README
+# Todos-API (RESTful JSON API with Rails 5)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my implementation of a todo list API built in the @scoth-io three-part tutorial 'Build a RESTful JSON API with Rails 5'
 
-Things you may want to cover:
+* [Part One](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one) - [source](https://github.com/akabiru/todos-api/tree/part-one)
+* [Part Two](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-two) - [source](https://github.com/akabiru/todos-api/tree/part-two)
+* [Part Three](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-three) - [source](https://github.com/akabiru/todos-api/tree/part-three)
 
-* Ruby version
+Source repo at [akabiru/todos-api](https://github.com/akabiru/todos-api)
 
-* System dependencies
+# Prerequisites
+* Ruby 2.2.2+
+* Rails 5+
 
-* Configuration
+# API RESTful Endpoints
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+| Endpoint | Functionality |
+| --- | --- |
+| POST /signup | Signup |
+| POST /auth/login | Login |
+| GET /auth/logout | Logout |
+| GET /todos | List all todos |
+| POST /todos | Create a new todo |
+| GET /todos/:id | Get a todo |
+| PUT /todos/:id | Update a todo |
+| DELETE /todos/:id | Delete a todo and its items |
+| GET /todos/:id/items | Get a todo item |
+| PUT /todos/:id/items | Update a todo item |
+| DELETE /todos/:id/items | Delete a todo item |
