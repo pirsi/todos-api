@@ -15,7 +15,6 @@ Bundler.require(*Rails.groups)
 module TodosApi
   class Application < Rails::Application
     config.load_defaults 5.2
-    config.factory_bot.definition_file_paths = ["specs/factories"]
     config.api_only = true
   end
 end
