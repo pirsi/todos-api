@@ -3,13 +3,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.3'
 
+gem 'bcrypt'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.3'
 gem 'sqlite3'
 gem 'puma', '~> 3.11'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
-  gem 'factory_bot_rails'
   gem 'rspec-rails', '~> 3.5'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
@@ -21,8 +21,9 @@ group :development do
 end
 
 group :test do
-  gem 'shoulda-matchers'
+  gem 'factory_bot_rails'
   gem 'faker'
+  gem 'shoulda-matchers'
   gem 'database_cleaner'
 end
 
