@@ -70,6 +70,7 @@ RSpec.describe 'Items API' do
       before do 
         post "/todos/#{todo_id}/items", params: valid_attributes, headers: headers
       end
+
       it 'returns status code 201' do
         expect(response).to have_http_status(201)
       end
@@ -90,11 +91,12 @@ RSpec.describe 'Items API' do
 
   # Test suite for PUT /todos/:todo_id/items/:id
   describe 'PUT /todos/:todo_id/items/:id' do
-    let(:valid_attributes) { { name: 'Tia lurde' }to_json }
+    let(:valid_attributes) { { name: 'Tia lurde' }.to_json }
 
     before do
-      put "/todos/#{todo_id}/items/#{id}", params: valid_attributes, headers: headers }
+      put "/todos/#{todo_id}/items/#{id}", params: valid_attributes, headers: headers
     end
+
     context 'when item exists' do
       it 'returns status code 204' do
         expect(response).to have_http_status(204)
