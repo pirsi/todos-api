@@ -9,7 +9,7 @@ gem 'jwt'
 gem 'bcrypt'
 gem 'rails', '~> 7.0.2.3', '>= 7.0.2.3'
 gem 'sqlite3'
-gem 'puma', '~> 5.6.2'
+gem 'puma', '~> 5.6.4'
 gem 'bootsnap', '>= 1.11.1', require: false
 
 group :development, :test do
